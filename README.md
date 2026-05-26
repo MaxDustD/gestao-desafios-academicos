@@ -13,13 +13,10 @@ Projeto acadêmico desenvolvido em C# com foco na aplicação prática dos princ
 - [Relacionamentos Entre Entidades](#relacionamentos-entre-entidades)
 - [Proteção de Invariantes](#proteção-de-invariantes)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Fluxo de Funcionamento](#fluxo-de-funcionamento)
 - [Demonstrações Implementadas](#demonstrações-implementadas)
 - [Estrutura de Pastas](#estrutura-de-pastas)
 - [Como Executar o Projeto](#como-executar-o-projeto)
 - [Exemplo de Execução](#exemplo-de-execução)
-- [Possíveis Melhorias Futuras](#possíveis-melhorias-futuras)
-- [Aprendizados Aplicados](#aprendizados-aplicados)
 - [Autor](#autor)
 
 ---
@@ -284,25 +281,6 @@ GestaoDesafiosAcademicos/
 
 ---
 
-# Fluxo de Funcionamento
-
-O funcionamento básico do sistema segue as seguintes etapas:
-
-1. criação das entidades independentes;
-2. criação do programa de desafios;
-3. definição opcional do professor colaborador;
-4. associação de desafios;
-5. associação de avaliadores;
-6. associação de recursos;
-7. criação das fases;
-8. registro das avaliações;
-9. finalização do programa;
-10. cálculo do percentual de fases aprovadas.
-
-Todas as operações passam por validações de domínio antes de serem executadas.
-
----
-
 # Demonstrações Implementadas
 
 O arquivo `Program.cs` demonstra:
@@ -423,43 +401,6 @@ Programa finalizado com sucesso.
 Percentual de fases aprovadas:
 100%
 ```
-
----
-
-# Possíveis Melhorias Futuras
-
-O projeto pode ser expandido futuramente com:
-
-- persistência em banco de dados;
-- interface gráfica;
-- API REST;
-- autenticação de usuários;
-- sistema de equipes;
-- geração de relatórios;
-- exportação de dados;
-- testes automatizados;
-- aplicação de padrões de projeto;
-- arquitetura em camadas;
-- integração com Entity Framework.
-
----
-
-# Aprendizados Aplicados
-
-Durante o desenvolvimento deste projeto foram praticados:
-
-- encapsulamento;
-- modelagem orientada a objetos;
-- associações entre objetos;
-- agregação;
-- composição;
-- validação de domínio;
-- proteção de invariantes;
-- organização de código;
-- uso de coleções seguras;
-- tratamento de exceções;
-- boas práticas em C#;
-- uso de Git e GitHub.
 
 ---
 
